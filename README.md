@@ -1,6 +1,6 @@
 # Separation Sort
 
-Blind source separation based spike sorting for ephysiological recordings using large, densely packed multi-electrode arrays. Traces containing multiple units are first "unmixed" using a blind source separation method, Independent Component Analysis (ICA). Then the resulting components are evaluated on how successful the unmixing, or separation, has been. Components determined to have been "well-separated" are 
+Blind source separation based spike sorting for ephysiological recordings using large, densely packed multi-electrode arrays. Traces containing multiple units are first "unmixed" using a blind source separation method, Independent Component Analysis (ICA). Then the resulting components are evaluated on how successful the unmixing, or separation, has been. "Well-separated" components have their spikes extracted, to be used in later analyses as the set of spike times from a single neuron. 
 
 ## NOTE
 
