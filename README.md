@@ -4,7 +4,7 @@ Blind source separation based spike sorting for ephysiological recordings using 
 
 ## NOTE
 
-Code and documention in process of being made more user-friendly for publication and use. Some extraneous scripts remain. A port of the code to Python is planned.
+Code and documention in process of being made more user-friendly for publication and use. Some extraneous scripts remain. And some code for a proof-of-concept algorithm add on to handle burst spikes. A port of the code to Python is planned.
 
 Paper will be posted on bioRxiv soon, a previous version is available in my dissertation: https://hdl.handle.net/2144/19751
 
@@ -13,6 +13,8 @@ Paper will be posted on bioRxiv soon, a previous version is available in my diss
 ### SpikeSort
 
 Spike sorting code. 
+
+Primary function is *RobustSpikeSort.m*
 
 ### Opt
 
